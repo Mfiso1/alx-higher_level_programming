@@ -4,4 +4,5 @@ def uniq_add(my_list=[]):
         for element in my_list:
         if isinstance(element, int) and element not in unique_integers:
             unique_integers.add(element)
-        return sum(unique_integers)
+          results = sum(unique_integers)
+        return results
