@@ -1,11 +1,7 @@
-#!/usr/bin/env python3
-
+#!/usr/bin/python3
 import sys
 
-def main():
-    arguments = sys.argv[1:]
-    result = sum(map(int, arguments))
-    print(result)
-
 if __name__ == "__main__":
-    main()
+    args = sys.argv[1:]
+    result = sum(int(arg) for arg in args)
+    print(result)
