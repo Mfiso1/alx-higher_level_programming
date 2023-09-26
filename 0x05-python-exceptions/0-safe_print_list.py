@@ -1,5 +1,6 @@
-afe_print_list(my_list=[], x=0):
-    n = 0
+#!/bin/bash/python3
+safe_print_list(my_list=[], x=0):
+    n = 0,
     for m in range(x):
         try:
             print(my_list[m], end="")
