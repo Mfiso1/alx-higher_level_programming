@@ -1,4 +1,4 @@
-i#!/usr/bin/python3
+#!/usr/bin/python3
 def safe_print_list_integers(my_list=[], x=0):
     j = 0
     for k in range(0,x):
