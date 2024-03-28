@@ -1,3 +1,3 @@
 --The script filter scores greater or equal 10
-SELECT * FROM second_table
+SELECT score, name FROM hbtn_0c_0.second_table
 WHERE score >= 10;
